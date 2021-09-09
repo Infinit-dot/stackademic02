@@ -30,7 +30,7 @@ p {
     width: 90%;
     margin: 4rem auto;
     border-radius: 10px;
-    padding: 2.3rem 3rem ;
+    padding: 2.2rem 4rem ;
 }
 #logo h1 {
     font-size: 1.3rem;
@@ -63,7 +63,7 @@ nav {
 }
 
 #menu-list li+li {
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 #menu-list li a {
     text-decoration: none;
@@ -83,14 +83,19 @@ img {
 margin-top: 5rem;
 }
 
+.about h1 {
+    margin-bottom: 2rem;
+}
+
 .btn {
  text-transform: uppercase;
  padding: 10px 15px;
  border: none;
- border-radius: 2px;
+ border-radius: 4px;
  font-weight: 600;
  cursor: pointer;
  background-color: transparent;
+ font-family: 'Jost', sans-serif;
 }
 .btn + .btn{
     margin-left: 1rem;
@@ -98,4 +103,28 @@ margin-top: 5rem;
 
 #sign-in{
 background-color: #f5f2d0;
+}
+
+.order-button {
+    border-radius: 1rem;
+    border: 1px solid #7D9967;
+    padding: 0.6rem 3rem ;
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-family: 'Jost', sans-serif;
+}
+#about-section{
+    padding: 2rem 3rem;
+}
+
+#more-info p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+footer p{
+    margin-top: 3rem;
+    text-align: right;
 }
