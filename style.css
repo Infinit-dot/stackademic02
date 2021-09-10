@@ -14,11 +14,14 @@ html, body {
 }
 
 h1 {
-    font-size: 2.7rem;
-    letter-spacing: 0.4rem;
+    font-size: 2.6rem;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
 }
 h1 span {
     color: #7D9967;
+    font-weight: 600;
 }
 
 p {
@@ -46,7 +49,6 @@ p {
 
 .flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -74,35 +76,37 @@ nav {
 #menu-list li a:hover {
     color: #7D9967;
 }
-img {
-    width: 400px;
-    height: auto;
-}
+
 
 #about-section {
-margin-top: 5rem;
+    margin-top: 5rem;
+    padding: 2rem 3rem;
 }
 
 .about h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
 }
 
 .btn {
- text-transform: uppercase;
- padding: 10px 15px;
- border: none;
- border-radius: 4px;
- font-weight: 600;
- cursor: pointer;
- background-color: transparent;
- font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Jost', sans-serif;
 }
 .btn + .btn{
     margin-left: 1rem;
 }
 
+.btn:hover{
+    border-bottom: 1px solid #7D9967;;
+}
 #sign-in{
-background-color: #f5f2d0;
+    background-color: #f5f2d0;
 }
 
 .order-button {
@@ -111,20 +115,44 @@ background-color: #f5f2d0;
     padding: 0.6rem 3rem ;
     background-color: transparent;
     font-size: 1.2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-family: 'Jost', sans-serif;
+    cursor: pointer;
 }
-#about-section{
-    padding: 2rem 3rem;
+
+.order-button:hover {
+    background-color: #f5f2d0;;
 }
 
 #more-info p {
     font-size: 1.3rem;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 10rem;
+}
+
+#more-info span {
+    color: #7D9967;
+    font-weight: bolder;
+}
+
+.left{
+    width: 45%;
+    margin-right: 12rem;
+}
+
+.right{
+    width: 30%;
+    align-self: flex-start;
+}
+
+.img-top {
+    width: 100%;
+    max-width: 320px;
 }
 
 footer p{
-    margin-top: 3rem;
-    text-align: right;
+    margin-top: 5rem;
+    text-align: center;
+    color: #4f4e4d;
 }
+
